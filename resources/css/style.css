@@ -10,8 +10,12 @@ body {
   align-items: center;
 }
 
+h2 {
+  margin: 10px auto;
+}
+
 h4 {
-  margin-top: 0;
+  margin: 10px auto;
 }
 
 navbar {
@@ -48,11 +52,9 @@ navbar .links a {
 
 main {
   width: 1200px;
-  position: absolute;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  overflow: scroll;
 }
 
 main .mission {
@@ -62,6 +64,7 @@ main .mission {
   background-image: url("../media/img-mission-background.jpg");
   width: 1200px;
   height: 700px;
+  padding-top: 70px;
   margin: auto;
 }
 
@@ -87,12 +90,8 @@ main .featured .teas {
 }
 
 figure {
-  padding: 0 10px;
+  padding: 10px;
   margin: 0;
-}
-
-main .featured .teas img {
-  margin-bottom: 10px;
 }
 
 main .locations {
@@ -103,7 +102,7 @@ main .locations {
   background-repeat: no-repeat;
   width: 1200px;
   height: 500px;
-  padding: 50px 0 50px 0;
+  padding: 60px 0 10px 0;
   margin-top: 50px;
 }
 
@@ -118,29 +117,32 @@ main .locations .locboxes .locbox {
   width: 300px;
   height: 250px;
   opacity: 1;
-  margin: 15px 20px;
+  margin: 20px;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   display: block;
   text-align: center;
   width: 100%;
   height: 200px;
-  z-index: 1;
 }
 
 footer a {
   text-decoration: none;
-
-}
-
-footer a:visited {
   color: seashell;
 }
 
+footer h2 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
 copyright {
-  text-align: left;
-  margin-left: 20px;
+  display: block;
+  width: 100%;
+  text-align: left !important;
+  padding-left: 20px;
+  font-size: smaller;
+  font-weight: bold;
+  margin: 30px auto;
 }
