@@ -46,20 +46,22 @@ navbar .links a {
 }
 
 main {
+  width: 1200px;
   position: absolute;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   overflow: scroll;
+  margin: 0 100px;
 }
 
 main .mission {
   display: flex;
+  justify-content: center;
   align-items: center;
   background-image: url("../media/img-mission-background.jpg");
   width: 1200px;
-  height: 800px;
-  margin: 0 auto;
+  height: 700px;
 }
 
 main .mission .statement {
@@ -90,4 +92,45 @@ figure {
 
 main .featured .teas img {
   margin-bottom: 10px;
+}
+
+main .locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../media/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 500px;
+  padding: 50px 0 50px 0;
+  margin-top: 50px;
+}
+
+main .locations .locboxes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+main .locations .locboxes .locbox {
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  opacity: 1;
+  margin: 15px 20px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+copyright {
+  margin-left: -80px;
 }
