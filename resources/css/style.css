@@ -28,6 +28,7 @@ navbar {
   z-index: 2;
   background-color: black;
   border-bottom: 1px solid white;
+  box-sizing:border-box;
 }
 
 navbar .logo {
@@ -62,6 +63,7 @@ main .mission {
   justify-content: center;
   align-items: center;
   background-image: url("../media/img-mission-background.jpg");
+  background-position: top;
   width: 1200px;
   height: 700px;
   padding-top: 70px;
