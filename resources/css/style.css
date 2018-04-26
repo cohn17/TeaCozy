@@ -141,5 +141,6 @@ footer a:visited {
 }
 
 copyright {
-  margin-left: -80px;
+  text-align: left;
+  margin-left: 20px;
 }
